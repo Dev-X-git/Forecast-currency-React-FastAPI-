@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-
+    // Main  APP.tsx
       <div className="bg-gradient-to-r from-[#0f172a] to-slate-950 w-full min-h-screen  pt-10">
         
         <Router>
