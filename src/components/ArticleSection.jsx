@@ -12,7 +12,7 @@ const ArticleSection = ({data}) => {
       </h1>
       <div className="flex items-center gap-2 overflow-hidden">
       {
-        data.tags &&    // Checks if data.tags is truthy (i.e., not null or undefined)
+        data.tags &&    // Checks if data.tags is truthy
         data.tags.slice(0,9).map((item, index) => ( // Maps over each item in data.tags array
           <span className ="rounded-2xl px-2 bg-[#c23c3c] text-white" key={index}>{item.slice(0,10)}</span> // Renders each item as a <span> element with a unique key
         ))
